@@ -1,8 +1,4 @@
 buildscript {
-    ext {
-        compose_ui_version = '1.4.3'
-        spotless_version = '6.18.0'
-    }
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
     alias(libs.plugins.com.android.application) apply false
