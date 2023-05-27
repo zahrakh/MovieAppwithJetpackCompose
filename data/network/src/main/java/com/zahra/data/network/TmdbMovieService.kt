@@ -4,7 +4,7 @@ import retrofit2.http.GET
 
 interface TmdbMovieService {
 
-  @GET("movie/popular")
+  @GET("movie/{movie_id}")
   suspend fun getMovieDetails(movieId: Int): TmdbMovieDetailsResponse
 
 }

@@ -16,3 +16,4 @@ rootProject.name = "MovieApp"
 include ':app'
 include ':data:model'
 include ':data:network'
+include ':data:api:tmdb'

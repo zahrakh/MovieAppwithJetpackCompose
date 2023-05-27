@@ -33,7 +33,6 @@ data class TmdbMovieDetailsResponse(
   @SerialName("vote_count") var voteCount: Int? = null,
 ):Parcelable
 
-
 @Parcelize
 data class BelongsToCollection(
   @SerialName("id") var id: Int? = null,
