@@ -3,7 +3,7 @@ package com.zahra.data.api.tmdb
 import com.zahra.data.model.VideoThumbnail
 import com.zahra.data.network.TmdbMovieService
 
-class TmdbMoviesRemoteSourceImp(
+internal class TmdbMoviesRemoteSourceImp(
   private val tmdbMovieService: TmdbMovieService,
 ) : TmdbMoviesRemoteSource {
 
